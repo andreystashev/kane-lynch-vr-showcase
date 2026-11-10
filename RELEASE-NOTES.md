@@ -2,9 +2,7 @@
 
 An unofficial VR conversion for the original **Kane & Lynch: Dead Men (2007)** on PC. Requires your own copy of the game; the **Steam version (App 8080)** is the primary tested edition.
 
-## Download pending
-
-**Installer assets are not attached yet. This draft is not a playable download.**
+## Download
 
 - **KaneLynchVR-0.3.61-Setup.exe** — recommended Windows installer, with game detection and Play/Settings shortcuts.
 - **KaneLynchVR-0.3.61-Portable.zip** — extract completely into a separate writable folder, then open **KaneLynchVRSettings.cmd**.
