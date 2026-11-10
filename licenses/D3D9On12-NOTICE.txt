@@ -1,0 +1,13 @@
+Kane & Lynch 2 VR x86 D3D9On12 selector.
+Built reproducibly by build-on12-renderer.ps1 from src/renderers/.
+Loads the Windows D3D9On12 implementation from the system directory.
+No Microsoft runtime binaries are redistributed.
+The process-local policy bounds temporary upload batches to 8 MiB and idle
+buffer retention to 5 completed fences. Other native compatibility fields
+are preserved. Unknown setter implementations keep normal Windows behavior.
+Diagnostic probe files are disabled by default. Researchers may explicitly
+set the process environment KL2_VR_RENDERER_LOG=1 before creating a factory.
+The interface is documented in the MIT-licensed Microsoft D3D9On12 project:
+https://github.com/microsoft/D3D9On12
+Copyright (c) Microsoft Corporation.
+MinHook is used under its BSD 2-clause license (see MINHOOK-LICENSE.txt).

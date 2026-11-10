@@ -1,0 +1,11 @@
+*.exe
+*.dll
+*.zip
+*.ini
+*.log
+*.dmp
+*.tmp
+logs/
+recordings/
+.cache-build/
+installer-build.json
